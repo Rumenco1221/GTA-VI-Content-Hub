@@ -1,0 +1,12 @@
+# Sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Material de trabajo pesado o con derechos de terceros (no subir)
+borradores/
+videos/
+*.mp4
+*.mov
+*.psd

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" role="img" aria-label="GTA VI Content Hub: noticias, guiones y análisis con fuentes">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A0E4F"/>
+      <stop offset="0.55" stop-color="#B8247A"/>
+      <stop offset="1" stop-color="#FF8A3D"/>
+    </linearGradient>
+    <linearGradient id="sol" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE45C"/>
+      <stop offset="1" stop-color="#FF5FA2"/>
+    </linearGradient>
+    <clipPath id="corte"><circle cx="1010" cy="250" r="140"/></clipPath>
+  </defs>
+  <rect width="1280" height="400" fill="url(#cielo)"/>
+  <!-- Sol con franjas, al estilo retro synthwave -->
+  <g clip-path="url(#corte)">
+    <circle cx="1010" cy="250" r="140" fill="url(#sol)"/>
+    <g fill="#B8247A">
+      <rect x="860" y="250" width="300" height="8"/>
+      <rect x="860" y="275" width="300" height="11"/>
+      <rect x="860" y="302" width="300" height="14"/>
+      <rect x="860" y="332" width="300" height="18"/>
+    </g>
+  </g>
+  <!-- Palmeras simples -->
+  <g fill="#1A0833">
+    <rect x="1170" y="170" width="10" height="230" transform="rotate(4 1175 400)"/>
+    <path d="M1190 175 q-60 -10 -95 25 q45 -15 95 -10 z M1190 175 q55 -20 85 15 q-40 -12 -85 -5 z M1190 175 q-20 -50 -70 -55 q35 20 60 60 z M1190 175 q30 -45 80 -40 q-45 12 -70 45 z"/>
+    <rect x="820" y="230" width="8" height="170" transform="rotate(-5 824 400)"/>
+    <path d="M812 235 q-45 -8 -70 18 q34 -11 70 -8 z M812 235 q42 -15 64 12 q-30 -9 -64 -4 z M812 235 q-15 -38 -52 -42 q26 15 45 45 z"/>
+  </g>
+  <rect y="360" width="1280" height="40" fill="#1A0833"/>
+  <!-- Texto -->
+  <text x="70" y="160" font-family="Arial Black, Arial, sans-serif" font-size="92" font-weight="900" fill="#FFFFFF">GTA VI</text>
+  <text x="70" y="235" font-family="Arial Black, Arial, sans-serif" font-size="58" font-weight="900" fill="#FFE45C">Content Hub</text>
+  <text x="72" y="290" font-family="Arial, sans-serif" font-size="26" fill="#FFE8F4">Noticias · Artículos SEO · Guiones · LinkedIn</text>
+  <text x="72" y="330" font-family="Arial, sans-serif" font-size="20" fill="#FFE8F4" opacity="0.85">✅ Oficial  ·  📰 Reportado  ·  🔮 Rumor</text>
+</svg>
